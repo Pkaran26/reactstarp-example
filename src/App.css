@@ -1,0 +1,76 @@
+html, body {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.mar20 {
+  margin-bottom: 20px;
+}
+
+.card-header {
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 10px !important;
+}
+
+.table-responsive {
+  height: 400px;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+.datatable .action {
+  width: 55px;
+}
+
+.datatable .action > .icon {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.badge {
+  padding: 15px !important;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #888;
+}
+
+.spin {
+  justify-content: center;
+  align-items: center;
+}
+
+.notification {
+  position: absolute;
+  z-index: 10;
+  top: -13px;
+  right: -89px;
+  width: 291px;
+}
